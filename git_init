@@ -1,0 +1,20 @@
+git init
+git config user.name "Neo"
+git config user.email "varunpandeyengg@gmail.com"
+curl -u 'varunpandeyengg' https://api.github.com/user/repos -d '{"name":"cpp-boilerplate", "description":"This repo is a boiler-plate skelaton cpp repo"}'
+git remote add origin git@github.com:varunpandeyengg/cpp-boilerplate.git
+
+ssh-keygen -C neo@matrix
+    /home/vpandey/.ssh/id_rsa_github
+    <MatrixLoveStory>
+
+cat /home/vpandey/.ssh/id_rsa_github.pub
+
+curl -u "varunpandeyengg" --data '{"title":"work-key","key":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEUPqfWjT4oyrfLTtLalEAiS9O3cBnjxR6FRXncv9q8wld4pbPCh4QIF++W0EL9uPN1UpJuyeMjgKqRo0ufh16H8poi2OQCtJAggmHq5r3wsmsN5TYLbofNDgzaW25oDhC1/EA+Txe4oUJyp1dFh5Mb4T/8dU+LvlatpnLK2oQyIwSRTW2/WjGORoHVr9yW7F62c4elRVsOeMoen/65FCPGHpW/bIX60IrM2mJBdmgFW55DgR7JV+nsagO0uIBQQoF9LVdo4/ajETzMOPOpZip0mYFGRhBL4QkeWz4Jj7CN1Xk6Gz11hf9V9NW5YluKAe730Ts0ZnfpeBXKHCLijcT neo@matrix"}' https://api.github.com/user/keys
+
+ssh-add bash
+
+ssh -vT git@github.com
+
+
+
